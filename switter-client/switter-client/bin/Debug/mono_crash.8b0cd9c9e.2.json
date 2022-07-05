@@ -1,0 +1,570 @@
+{
+  "protocol_version" : "0.0.6",
+  "configuration" : {
+    "version" : "(6.12.0.179) (2020-02/dffa5ab9224)",
+    "tlc" : "normal",
+    "sigsgev" : "altstack",
+    "notifications" : "kqueue",
+    "architecture" : "amd64",
+    "disabled_features" : "none",
+    "smallconfig" : "disabled",
+    "bigarrays" : "disabled",
+    "softdebug" : "enabled",
+    "interpreter" : "enabled",
+    "llvm_support" : "0",
+    "suspend" : "hybrid"
+  },
+  "memory" : {
+    "Resident Size" : "89743360",
+    "Virtual Size" : "35809570816",
+    "minor_gc_time" : "0",
+    "major_gc_time" : "0",
+    "minor_gc_count" : "0",
+    "major_gc_count" : "0",
+    "major_gc_time_concurrent" : "0"
+ },
+  "threads" : [
+ {
+    "is_managed" : false,
+    "offset_free_hash" : "0x0",
+    "offset_rich_hash" : "0x0",
+    "crashed" : false,
+    "native_thread_id" : "0x30cf8a000",
+    "thread_info_addr" : "0x7fd3cb02f200",
+    "thread_name" : "Finalizer",
+    "ctx" : {
+      "IP" : "0x7ff80eda89b6",
+      "SP" : "0x30cf89eb8",
+      "BP" : "0x30cf89f00"
+  },
+    "unmanaged_frames" : [
+  {
+      "is_managed" : "false",
+      "native_address" : "0x104303756",
+      "native_offset" : "0x00000"
+   }
+,
+  {
+      "is_managed" : "false",
+      "native_address" : "0x10449efd5",
+      "native_offset" : "0x00000"
+   }
+,
+  {
+      "is_managed" : "false",
+      "native_address" : "0x10449ed07",
+      "native_offset" : "0x00000"
+   }
+,
+  {
+      "is_managed" : "false",
+      "native_address" : "0x10436f840",
+      "native_offset" : "0x00000"
+   }
+,
+  {
+      "is_managed" : "false",
+      "native_address" : "0x7ff80edfadfd",
+      "native_offset" : "0x00000"
+   }
+,
+  {
+      "is_managed" : "false",
+      "native_address" : "unregistered"
+   }
+,
+  {
+      "is_managed" : "false",
+      "native_address" : "0x10449fc1d",
+      "native_offset" : "0x00000"
+   }
+,
+  {
+      "is_managed" : "false",
+      "native_address" : "0x7ff80ede54e1",
+      "native_offset" : "0x00000"
+   }
+,
+  {
+      "is_managed" : "false",
+      "native_address" : "0x7ff80ede0f6b",
+      "native_offset" : "0x00000"
+   }
+
+  ]
+ },
+ {
+    "is_managed" : false,
+    "offset_free_hash" : "0x0",
+    "offset_rich_hash" : "0x0",
+    "crashed" : false,
+    "native_thread_id" : "0x30d18d000",
+    "thread_info_addr" : "0x7fd3cb053600",
+    "thread_name" : "Debugger agent",
+    "ctx" : {
+      "IP" : "0x7ff80edabf0e",
+      "SP" : "0x30d18cb98",
+      "BP" : "0x30d18cbf0"
+  },
+    "unmanaged_frames" : [
+  {
+      "is_managed" : "false",
+      "native_address" : "0x104303756",
+      "native_offset" : "0x00000"
+   }
+,
+  {
+      "is_managed" : "false",
+      "native_address" : "0x10449efd5",
+      "native_offset" : "0x00000"
+   }
+,
+  {
+      "is_managed" : "false",
+      "native_address" : "0x10449ed07",
+      "native_offset" : "0x00000"
+   }
+,
+  {
+      "is_managed" : "false",
+      "native_address" : "0x10436f840",
+      "native_offset" : "0x00000"
+   }
+,
+  {
+      "is_managed" : "false",
+      "native_address" : "0x7ff80edfadfd",
+      "native_offset" : "0x00000"
+   }
+,
+  {
+      "is_managed" : "false",
+      "native_address" : "unregistered"
+   }
+,
+  {
+      "is_managed" : "false",
+      "native_address" : "0x1043ac3d6",
+      "native_offset" : "0x00000"
+   }
+,
+  {
+      "is_managed" : "false",
+      "native_address" : "0x10449fc1d",
+      "native_offset" : "0x00000"
+   }
+,
+  {
+      "is_managed" : "false",
+      "native_address" : "0x7ff80ede54e1",
+      "native_offset" : "0x00000"
+   }
+,
+  {
+      "is_managed" : "false",
+      "native_address" : "0x7ff80ede0f6b",
+      "native_offset" : "0x00000"
+   }
+
+  ]
+ },
+ {
+    "is_managed" : true,
+    "offset_free_hash" : "0x8b0cd9c9e",
+    "offset_rich_hash" : "0x8b0cd9fd7",
+    "crashed" : true,
+    "native_thread_id" : "0x204a7d600",
+    "thread_info_addr" : "0x7fd3cb011200",
+    "thread_name" : "tid_103",
+    "ctx" : {
+      "IP" : "0x7ff813f4157b",
+      "SP" : "0x30cd03b20",
+      "BP" : "0x30cd03b30"
+  },
+    "managed_frames" : [
+  {
+      "is_managed" : "false",
+      "native_address" : "unregistered"
+   }
+,
+  {
+      "is_managed" : "true",
+      "guid" : "E033ACFA-C834-4812-B628-7B4682B663CF",
+      "token" : "0x00000",
+      "native_offset" : "0x0",
+      "filename" : "System.Windows.Forms.dll",
+      "sizeofimage" : "0x2ca000",
+      "timestamp" : "0x8d636852",
+      "il_offset" : "0xffffffff"
+   }
+,
+  {
+      "is_managed" : "true",
+      "guid" : "E033ACFA-C834-4812-B628-7B4682B663CF",
+      "token" : "0x6004180",
+      "native_offset" : "0x0",
+      "filename" : "System.Windows.Forms.dll",
+      "sizeofimage" : "0x2ca000",
+      "timestamp" : "0x8d636852",
+      "il_offset" : "0x00005"
+   }
+,
+  {
+      "is_managed" : "true",
+      "guid" : "E033ACFA-C834-4812-B628-7B4682B663CF",
+      "token" : "0x600417f",
+      "native_offset" : "0x0",
+      "filename" : "System.Windows.Forms.dll",
+      "sizeofimage" : "0x2ca000",
+      "timestamp" : "0x8d636852",
+      "il_offset" : "0x00000"
+   }
+,
+  {
+      "is_managed" : "true",
+      "guid" : "E033ACFA-C834-4812-B628-7B4682B663CF",
+      "token" : "0x6004056",
+      "native_offset" : "0x0",
+      "filename" : "System.Windows.Forms.dll",
+      "sizeofimage" : "0x2ca000",
+      "timestamp" : "0x8d636852",
+      "il_offset" : "0x00000"
+   }
+,
+  {
+      "is_managed" : "true",
+      "guid" : "E033ACFA-C834-4812-B628-7B4682B663CF",
+      "token" : "0x6002943",
+      "native_offset" : "0x0",
+      "filename" : "System.Windows.Forms.dll",
+      "sizeofimage" : "0x2ca000",
+      "timestamp" : "0x8d636852",
+      "il_offset" : "0x00034"
+   }
+,
+  {
+      "is_managed" : "true",
+      "guid" : "3F6D2A84-456E-45E0-92F8-79821E86B209",
+      "token" : "0x00000",
+      "native_offset" : "0x0",
+      "filename" : "mscorlib.dll",
+      "sizeofimage" : "0x472000",
+      "timestamp" : "0x805cd1bf",
+      "il_offset" : "0xffffffff"
+   }
+,
+  {
+      "is_managed" : "false",
+      "native_address" : "unregistered"
+   }
+,
+  {
+      "is_managed" : "true",
+      "guid" : "E033ACFA-C834-4812-B628-7B4682B663CF",
+      "token" : "0x6001b12",
+      "native_offset" : "0x0",
+      "filename" : "System.Windows.Forms.dll",
+      "sizeofimage" : "0x2ca000",
+      "timestamp" : "0x8d636852",
+      "il_offset" : "0x0003e"
+   }
+,
+  {
+      "is_managed" : "true",
+      "guid" : "E033ACFA-C834-4812-B628-7B4682B663CF",
+      "token" : "0x6004110",
+      "native_offset" : "0x0",
+      "filename" : "System.Windows.Forms.dll",
+      "sizeofimage" : "0x2ca000",
+      "timestamp" : "0x8d636852",
+      "il_offset" : "0x000d8"
+   }
+,
+  {
+      "is_managed" : "true",
+      "guid" : "E033ACFA-C834-4812-B628-7B4682B663CF",
+      "token" : "0x6004064",
+      "native_offset" : "0x0",
+      "filename" : "System.Windows.Forms.dll",
+      "sizeofimage" : "0x2ca000",
+      "timestamp" : "0x8d636852",
+      "il_offset" : "0x00000"
+   }
+,
+  {
+      "is_managed" : "true",
+      "guid" : "E033ACFA-C834-4812-B628-7B4682B663CF",
+      "token" : "0x60023c2",
+      "native_offset" : "0x0",
+      "filename" : "System.Windows.Forms.dll",
+      "sizeofimage" : "0x2ca000",
+      "timestamp" : "0x8d636852",
+      "il_offset" : "0x00009"
+   }
+,
+  {
+      "is_managed" : "true",
+      "guid" : "E033ACFA-C834-4812-B628-7B4682B663CF",
+      "token" : "0x6000788",
+      "native_offset" : "0x0",
+      "filename" : "System.Windows.Forms.dll",
+      "sizeofimage" : "0x2ca000",
+      "timestamp" : "0x8d636852",
+      "il_offset" : "0x00031"
+   }
+,
+  {
+      "is_managed" : "true",
+      "guid" : "E033ACFA-C834-4812-B628-7B4682B663CF",
+      "token" : "0x60017f8",
+      "native_offset" : "0x0",
+      "filename" : "System.Windows.Forms.dll",
+      "sizeofimage" : "0x2ca000",
+      "timestamp" : "0x8d636852",
+      "il_offset" : "0x00000"
+   }
+,
+  {
+      "is_managed" : "true",
+      "guid" : "E033ACFA-C834-4812-B628-7B4682B663CF",
+      "token" : "0x6000745",
+      "native_offset" : "0x0",
+      "filename" : "System.Windows.Forms.dll",
+      "sizeofimage" : "0x2ca000",
+      "timestamp" : "0x8d636852",
+      "il_offset" : "0x00039"
+   }
+,
+  {
+      "is_managed" : "true",
+      "guid" : "E033ACFA-C834-4812-B628-7B4682B663CF",
+      "token" : "0x60007b8",
+      "native_offset" : "0x0",
+      "filename" : "System.Windows.Forms.dll",
+      "sizeofimage" : "0x2ca000",
+      "timestamp" : "0x8d636852",
+      "il_offset" : "0x00057"
+   }
+,
+  {
+      "is_managed" : "true",
+      "guid" : "E033ACFA-C834-4812-B628-7B4682B663CF",
+      "token" : "0x600181a",
+      "native_offset" : "0x0",
+      "filename" : "System.Windows.Forms.dll",
+      "sizeofimage" : "0x2ca000",
+      "timestamp" : "0x8d636852",
+      "il_offset" : "0x00065"
+   }
+,
+  {
+      "is_managed" : "true",
+      "guid" : "E033ACFA-C834-4812-B628-7B4682B663CF",
+      "token" : "0x6000721",
+      "native_offset" : "0x0",
+      "filename" : "System.Windows.Forms.dll",
+      "sizeofimage" : "0x2ca000",
+      "timestamp" : "0x8d636852",
+      "il_offset" : "0x00009"
+   }
+,
+  {
+      "is_managed" : "true",
+      "guid" : "E033ACFA-C834-4812-B628-7B4682B663CF",
+      "token" : "0x00000",
+      "native_offset" : "0x0",
+      "filename" : "System.Windows.Forms.dll",
+      "sizeofimage" : "0x2ca000",
+      "timestamp" : "0x8d636852",
+      "il_offset" : "0x00032"
+   }
+,
+  {
+      "is_managed" : "true",
+      "guid" : "E033ACFA-C834-4812-B628-7B4682B663CF",
+      "token" : "0x600013b",
+      "native_offset" : "0x0",
+      "filename" : "System.Windows.Forms.dll",
+      "sizeofimage" : "0x2ca000",
+      "timestamp" : "0x8d636852",
+      "il_offset" : "0x00059"
+   }
+,
+  {
+      "is_managed" : "true",
+      "guid" : "E033ACFA-C834-4812-B628-7B4682B663CF",
+      "token" : "0x6000138",
+      "native_offset" : "0x0",
+      "filename" : "System.Windows.Forms.dll",
+      "sizeofimage" : "0x2ca000",
+      "timestamp" : "0x8d636852",
+      "il_offset" : "0x00011"
+   }
+,
+  {
+      "is_managed" : "true",
+      "guid" : "E033ACFA-C834-4812-B628-7B4682B663CF",
+      "token" : "0x6000136",
+      "native_offset" : "0x0",
+      "filename" : "System.Windows.Forms.dll",
+      "sizeofimage" : "0x2ca000",
+      "timestamp" : "0x8d636852",
+      "il_offset" : "0x00006"
+   }
+,
+  {
+      "is_managed" : "true",
+      "guid" : "C85290A0-5D6E-4BB4-B7D0-F28327EC7A69",
+      "token" : "0x600000d",
+      "native_offset" : "0x0",
+      "filename" : "switter-client.exe",
+      "sizeofimage" : "0x36000",
+      "timestamp" : "0x62ac6378",
+      "il_offset" : "0x00013"
+   }
+,
+  {
+      "is_managed" : "true",
+      "guid" : "3F6D2A84-456E-45E0-92F8-79821E86B209",
+      "token" : "0x00000",
+      "native_offset" : "0x0",
+      "filename" : "mscorlib.dll",
+      "sizeofimage" : "0x472000",
+      "timestamp" : "0x805cd1bf",
+      "il_offset" : "0xffffffff"
+   }
+
+  ],
+  "unmanaged_frames" : [
+ {
+    "is_managed" : "false",
+    "native_address" : "0x104303756",
+    "native_offset" : "0x00000"
+  }
+,
+ {
+    "is_managed" : "false",
+    "native_address" : "0x10449efd5",
+    "native_offset" : "0x00000"
+  }
+,
+ {
+    "is_managed" : "false",
+    "native_address" : "0x10449f64a",
+    "native_offset" : "0x00000"
+  }
+,
+ {
+    "is_managed" : "false",
+    "native_address" : "0x104370907",
+    "native_offset" : "0x00000"
+  }
+,
+ {
+    "is_managed" : "false",
+    "native_address" : "0x1043083ee",
+    "native_offset" : "0x00000"
+  }
+,
+ {
+    "is_managed" : "false",
+    "native_address" : "0x10436a7b6",
+    "native_offset" : "0x00000"
+  }
+,
+ {
+    "is_managed" : "false",
+    "native_address" : "0x7ff813f4157b",
+    "native_offset" : "0x00000"
+  }
+,
+ {
+    "is_managed" : "true",
+    "guid" : "E033ACFA-C834-4812-B628-7B4682B663CF",
+    "token" : "0x00000",
+    "native_offset" : "0x0",
+    "filename" : "System.Windows.Forms.dll",
+    "sizeofimage" : "0x2ca000",
+    "timestamp" : "0x8d636852",
+    "il_offset" : "0x00000"
+  }
+,
+ {
+    "is_managed" : "true",
+    "guid" : "3F6D2A84-456E-45E0-92F8-79821E86B209",
+    "token" : "0x00000",
+    "native_offset" : "0x0",
+    "filename" : "mscorlib.dll",
+    "sizeofimage" : "0x472000",
+    "timestamp" : "0x805cd1bf",
+    "il_offset" : "0x00000"
+  }
+,
+ {
+    "is_managed" : "false",
+    "native_address" : "0x104265332",
+    "native_offset" : "0x00000"
+  }
+,
+ {
+    "is_managed" : "false",
+    "native_address" : "0x104476792",
+    "native_offset" : "0x00000"
+  }
+,
+ {
+    "is_managed" : "false",
+    "native_address" : "0x1044753b8",
+    "native_offset" : "0x00000"
+  }
+,
+ {
+    "is_managed" : "false",
+    "native_address" : "0x10425cd3c",
+    "native_offset" : "0x00000"
+  }
+,
+ {
+    "is_managed" : "false",
+    "native_address" : "0x10426088a",
+    "native_offset" : "0x00000"
+  }
+,
+ {
+    "is_managed" : "false",
+    "native_address" : "0x10430af0e",
+    "native_offset" : "0x00000"
+  }
+,
+ {
+    "is_managed" : "false",
+    "native_address" : "0x10430a950",
+    "native_offset" : "0x00000"
+  }
+,
+ {
+    "is_managed" : "true",
+    "guid" : "(null)",
+    "token" : "0x00000",
+    "native_offset" : "0x0",
+    "filename" : "(null)",
+    "sizeofimage" : "0x0",
+    "timestamp" : "0x0",
+    "il_offset" : "0x00000"
+  }
+,
+ {
+    "is_managed" : "true",
+    "guid" : "E033ACFA-C834-4812-B628-7B4682B663CF",
+    "token" : "0x6001b12",
+    "native_offset" : "0x0",
+    "filename" : "System.Windows.Forms.dll",
+    "sizeofimage" : "0x2ca000",
+    "timestamp" : "0x8d636852",
+    "il_offset" : "0x00000"
+  }
+
+ ]
+}
+]
+}

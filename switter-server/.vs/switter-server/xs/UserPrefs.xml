@@ -1,0 +1,23 @@
+﻿<Properties StartupConfiguration="{7BB793CC-1028-44E1-BEFF-4C242A95EBCA}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../switter-client/switter-client/Form1.cs">
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="switter-server" expanded="True">
+            <Node name="switter-server" expanded="True" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.switter-server PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
